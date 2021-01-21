@@ -1,0 +1,25 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class exercicios {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s1, s2, s3;
+		int i1,i2,i3;
+		s1 = sc.nextLine();
+		s2 = sc.nextLine();
+		s3 = sc.nextLine();
+		i1 = sc.nextInt()
+		i2 = sc.nextInt()
+		i3 = sc.nextInt()
+		System.out.println("DADOS DIGITADOS:");
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(i1);
+		System.out.println(i2);
+		System.out.println(i3);
+		sc.close();
+}
+}

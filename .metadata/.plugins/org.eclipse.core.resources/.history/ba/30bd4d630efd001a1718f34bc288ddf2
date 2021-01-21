@@ -1,0 +1,16 @@
+package curso_programacao;
+
+public class exercicios {
+
+	public static void main(String[] args) {
+		int a;
+		int b;
+		int resultado;
+		a = 10;
+		b = 30;
+		resultado = a + b;
+		System.out.printf("Soma = %d", resultado);
+		
+	}
+
+}

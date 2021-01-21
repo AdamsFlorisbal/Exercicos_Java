@@ -1,0 +1,22 @@
+package curso_programacao;
+
+import com.sun.java_cup.internal.runtime.Scanner;
+
+public class exercicios {
+
+	public static void main(String[] args) {
+		java.util.Scanner sc = new Scanner(System.in);
+		int a;
+		int b;
+		int c;
+		int resultado;
+		a = 10;
+		c = sc.nextInt();
+		b = 30;
+		resultado = a + b;
+		System.out.printf("Soma = %d, %d", resultado, c);
+		sc.close();
+		
+	}
+
+}

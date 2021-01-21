@@ -1,0 +1,31 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class exercicios {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s1, s2, s3;
+		int i1,i2,i3;
+		System.out.println("Digite uam String");
+		s1 = sc.nextLine();
+		System.out.println("Digite uam String");
+		s2 = sc.nextLine();
+		System.out.println("Digite uam String");
+		s3 = sc.nextLine();
+		System.out.println("Digite um numero inteiro");
+		i1 = sc.nextInt();
+		System.out.println("Digite um numero inteiro");
+		i2 = sc.nextInt();
+		System.out.println("Digite um numero inteiro");
+		i3 = sc.nextInt();
+		System.out.println("DADOS DIGITADOS:");
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(i1);
+		System.out.println(i2);
+		System.out.println(i3);
+		sc.close();
+}
+}
