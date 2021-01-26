@@ -58,3 +58,4 @@ local.propriedades
 # Descompromisse esta linha se você quiser ignorar o arquivo de descrição do projeto.
 # Normalmente, este arquivo seria rastreado se con contém configurações de compilação/dependência:
 #.project
+/.metadata/
